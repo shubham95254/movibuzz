@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-import Carousel from "../../../components/carousel/Carousel";
-import ContentWrapper from "../../../components/contentWrapper/contentWrapper";
+import Carousel from "../../components/carousel/Carousel";
+import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import SwitchTabs from "../../../components/switchTabs/SwitchTabs";
 
-import fetchData from "../../../hooks/fetchData"
+import fetchData from "../../../hooks/fetchData";
 
 const Trending = () => {
     const [endpoint, setEndpoint] = useState("day");

@@ -2,14 +2,18 @@ import React from 'react'
 import "./style.scss"
 import ChangingBanner from './changingBanner/ChangingBanner'
 import Trending from "./Carousel/Trending";
+import Popular from "./Popular";
+import TopRated from "./TopRated";
+
 const Home = () => {
   return (
     <div className='homePage'>
       <ChangingBanner/>
       <Trending />
-      <div style = {{height:1000 }}></div>
+      <Popular />
+      <TopRated />
     </div>
   )
 }
 
-export default Home
+export default Home;
